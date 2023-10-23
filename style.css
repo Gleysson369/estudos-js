@@ -1,0 +1,25 @@
+.mensagem, .texto, .num, .obj, .list, .res, .comparadores, .cond{
+    max-width: 20em;
+    text-align: left;
+    font-size: 2em;
+    color: #06adb9;
+}
+.botao{
+    width: 10em;
+    height: 5em;
+    font-size: 1.5em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    animation: blink 1s infinite alternate;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
